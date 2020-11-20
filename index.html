@@ -21,31 +21,10 @@
                 </div>
                 <div class="box-email">
                     <ul>
-                        <li v-if="index < 10 "  v-for="(ele, index) in email">{{email}}</li>
+                        <li v-for="ele in email">{{ele}}</li>
                     </ul>
                 </div>
             </div>
-
-             <div class="container">
-                <div class="box-title">
-                    <h1>Email grezze</h1>
-                </div>
-                <div class="box-email">
-                    <ul>
-                        <li>{{email}}</li>
-                        <li>{{email2}}</li>
-                        <li>{{email3}}</li>
-                        <li>{{email4}}</li>
-                        <li>{{email5}}</li>
-                        <li>{{email6}}</li>
-                        <li>{{email7}}</li>
-                        <li>{{email8}}</li>
-                        <li>{{email9}}</li>
-                        <li>{{email10}}</li>
-                    </ul>
-                </div>
-            </div>
-
         </div>
 
         <script src="main.js" charset="utf-8"></script>
